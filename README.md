@@ -1,1 +1,1 @@
-![poster](./show1.png)
+![poster](homework_img/show1.png)
