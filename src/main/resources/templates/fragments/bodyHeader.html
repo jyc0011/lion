@@ -1,23 +1,36 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html lang="" xmlns:th="http://www.thymeleaf.org">
 <head>
+    <link href="/css/homwork.css" rel="stylesheet">
+    <link href="/css/homwork_list.css" rel="stylesheet">
     <link href="/css/globals.css" rel="stylesheet">
     <link href="/css/levels.css" rel="stylesheet">
+    <link href="/css/mainStyle.css" rel="stylesheet">
+    <link href="/css/navbar.css" rel="stylesheet">
+    <link href="/css/footer.css" rel="stylesheet">
 </head>
 <body>
-<div class="header" th:fragment="bodyHeader" style="width: 1200px; margin: 0 auto;">
-    <a href="/" class="logo-link"><h3 class="text-muted text-center logo">LL Session Homework</h3></a>
-    <ul class="nav nav-pills authentication-links">
-        <li><a href="/log">LOGIN</a></li>
-        <li><a href="/register">REGISTER</a></li>
-        <li><a href="/logout">LOGOUT</a></li>
-    </ul>
-    <ul class="nav nav-pills general-menu">
-        <li><a href="/about">About PCS</a></li>
-        <li><a href="/member">PCS Member</a></li>
-        <li><a href="/">-</a></li>
-        <li><a href="/">-</a></li>
-    </ul>
-</div>
+    <div class="header" th:fragment="bodyHeader" style="width: 1200px; margin: 0 auto;">
+        <nav class="navbar">
+            <div class="homebtn_div">
+                <button class="likelionlogo_btn">
+                    <img src="../../image/kau_likelion.png" alt="logo" class="kau_likelion_logo">
+                    HOME
+                </button>
+            </div>
+
+            <div class="navbar_title_txt">
+                <a class="likelion_title">LIKELION</a>
+                <p class="kau_title">KoreaAerospaceUniversity</p>
+            </div>
+
+            <div class="assignment_nav">
+                <button class="homework_btn">
+                    <a href="#"> <img src="../../image/backpack.png" alt="backpack" class="assignment_backpack"></a>
+                    <a href="#" class="homework_list">목록</a>
+                </button>
+            </div>
+        </nav>
+    </div>
 </body>
 </html>

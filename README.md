@@ -1,3 +1,7 @@
+# file store js Session
+![poster](homework_img/file_js_session.png)
+![poster](homework_img/file_js_session2.png)
+
 # 2 주차
 ![poster](homework_img/2week(1).png)
 ![poster](homework_img/2week(2).png)
